@@ -18,9 +18,16 @@ app.get("/mercury", function(req,res){
 });
 
 app.get("/venus", function(req,res){
-  res.send("This will be the Venus web page!"); 
+  res.send("venus.html"); 
 });
 
+app.get("/earth", function(req,res){
+  res.render("earth.html"); 
+});
+
+app.get("/mars", function(req,res){
+  res.send("mars.html"); 
+});
 
 // Setting up the server to listen on port 8081
 app.listen(process.env.PORT, process.env.IP, function(){  
