@@ -2,3 +2,21 @@ body {
   background-color : #CBE2F6;
   text-align: center;  
 }
+
+a {
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white  
+}
+
+.active {
+  color: red;
+}
+
+a:hover {
+  border-bottom:2px orange solid;
+  font-size:2em;
+  transition: .9s;
+}
