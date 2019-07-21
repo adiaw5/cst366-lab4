@@ -9,7 +9,7 @@ app.engine('html',require('ejs').renderFile);
 app.use(express.static("public"));
 
 
-app.get("/", function(req,res){
+app.get("/index", function(req,res){
   res.render("index.html"); 
 });
 
